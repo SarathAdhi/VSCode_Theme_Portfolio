@@ -1,5 +1,19 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@assets/*": ["../public/assets/*"],
+      "@components/*": ["common/components/*"],
+      "@styles/*": ["styles/*"],
+      "@elements/*": ["common/components/elements/*"],
+      "@layouts/*": ["common/layouts/*"],
+      "@utils/*": ["utils/*"],
+      "@modules/*": ["modules/*"],
+      "@constants/*": ["utils/constants/*"],
+      "@lib/*": ["lib/*"],
+      "@common/*": ["common/*"],
+      "@module/*": ["module/*"]
+    },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
